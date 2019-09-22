@@ -4,7 +4,7 @@ Theme is based on the [Bootstrap](http://getbootstrap.com/) framework created by
 
 ## Template
 
-![Desktop template](/template.png?raw=true "Optional Title")
+![Desktop template](img/template.png?raw=true "Optional Title")
 
 ## Status
 
