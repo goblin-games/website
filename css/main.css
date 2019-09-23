@@ -71,6 +71,11 @@ section h2 {
     color: #fcbd20;
 }
 
+.section-games{
+    max-width: 980px;
+    margin: auto;
+}
+
 .section-games .game-primary .info {
     min-height: auto;
 }
