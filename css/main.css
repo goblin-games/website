@@ -205,7 +205,8 @@ section h2 {
 }
 
 section.contact {
-    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
     text-align: center;
     margin: auto;
 }
@@ -215,38 +216,32 @@ section.contact h2 {
     margin-bottom: 25px;
 }
 
-section.contact h2 i {
-    color: #dd4b39;
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-form .form-control{
+    border-radius:1rem;
 }
 
 section.contact ul.list-social {
     margin-bottom: 0;
-}
-
-section.contact ul.list-social li a {
-    font-size: 40px;
-    line-height: 80px;
-    display: block;
-    width: 80px;
-    height: 80px;
-    color: white;
-    border-radius: 100%;
-}
-
-section.contact ul.list-social li.social-twitter a {
-    background-color: #1da1f2;
-}
-
-section.contact ul.list-social li.social-twitter a:hover {
-    background-color: #0d95e8;
-}
-
-section.contact ul.list-social li.social-facebook a {
-    background-color: #3b5998;
-}
-
-section.contact ul.list-social li.social-facebook a:hover {
-    background-color: #344e86;
 }
 
 footer {
