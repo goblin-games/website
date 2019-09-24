@@ -71,11 +71,8 @@ section h2 {
     color: #fcbd20;
 }
 
-.games {
-    margin-top: 60px;
-}
-
 .game-knifethrow {
+    margin-top: 60px;
     background: rgb(58, 101, 140);
     background: radial-gradient(circle, rgba(58, 101, 140, 1) 0%, rgba(34, 73, 80, 1) 100%);
 }
@@ -85,26 +82,29 @@ section h2 {
     background: radial-gradient(circle, rgba(223, 68, 68, 1) 0%, rgba(172, 58, 58, 1) 100%);
 }
 
-.game-icon {
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    margin-bottom: 30px;
-    justify-content: center;
-    align-items: center;
+.game-cubie {
+    background: rgb(58, 101, 140);
+    background: url("../img/bg-pattern.png"), rgb(58, 101, 140);
+    background: url("../img/bg-pattern.png"), radial-gradient(circle, rgba(58, 101, 140, 1) 0%, rgba(34, 73, 80, 1) 100%);
+}
+
+.game-icon img {
+    margin-top: 100px;
+    max-width: 256px;
+    width: 100%;
+    border-radius: 10%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .5);
 }
 
 .game-description {
     color: white;
-}
-
-.icon img {
-    width: 100%;
+    margin-top: 100px;
 }
 
 .game-logo img {
     width: 100%;
-    height: 50&
+    height: 50& display: block;
+    max-width: 512px;
 }
 
 
@@ -120,127 +120,6 @@ section h2 {
 @media only screen and (max-width: 992px) {
     .cont-4 {
         height: 100%;
-    }
-}
-
-.section-games {
-    max-width: 980px;
-    margin: auto;
-}
-
-.section-games .game-primary .info {
-    min-height: auto;
-}
-
-.section-games .game-primary .text {
-    padding-bottom: 10px;
-    width: 70%;
-}
-
-.section-games .main-banner {
-    display: block;
-    height: 280px;
-    text-decoration: none;
-}
-
-.section-games .main-banner.knifethrow {
-    background: url(../img/kts-banner.png) top;
-    background-size: cover;
-}
-
-.section-games .main-banner.cubie {
-    background: url(../img/cubie-banner.png) top;
-    background-size: cover;
-}
-
-.section-games .main-banner.redrun {
-    background: url(../img/redrun-banner.png) top;
-    background-size: cover;
-}
-
-@media only screen and (min-width:530px) and (max-width:949px) {
-    .section-games .main-banner {
-        height: 230px;
-    }
-}
-
-.section-games .banner.knifethrow {
-    background: url(../img/kts-banner.png) 50%;
-    background-size: cover;
-}
-
-.section-games .banner.redrun {
-    background: url(../img/redrun-banner.png) 0;
-    background-size: cover;
-}
-
-@media only screen and (max-width:529px) {
-    .section-games .banner {
-        height: 180px;
-    }
-}
-
-.section-games .info {
-    background-color: #f3f3f3;
-    background-image: linear-gradient(90deg, #f7f7f7 0, #d9d9d9);
-    background-image: -webkit-gradient(linear, left top, right top, from(#f7f7f7), to(#d9d9d9));
-    font-size: 18px;
-    padding: 50px 0 0px;
-}
-
-.section-games .info h3 {
-    font-size: 32px;
-    text-transform: uppercase;
-}
-
-@media only screen and (max-width:529px) {
-    .section-games .info {
-        font-size: 15px;
-        padding: 40px 0;
-    }
-}
-
-.section-games .game .info {
-    min-height: 13em;
-}
-
-@media only screen and (max-width:529px) {
-    .section-games .game .info {
-        min-height: 1em;
-    }
-}
-
-@media only screen and (min-width:530px) and (max-width:980px) {
-    .section-games .game .info {
-        min-height: 1em;
-    }
-}
-
-@media only screen and (min-width:980px) {
-    .section-games .game .info {
-        min-height: 15.2em;
-    }
-}
-
-
-.section-games .btn-wrapper {
-    margin: -75px auto 10px;
-    text-align: center;
-    width: 200px;
-}
-
-.section-games .text {
-    font-size: 20px;
-    line-height: 1.3em;
-    margin: 0 auto;
-    width: 85%;
-}
-
-@media only screen and (min-width:530px) and (max-width:980px) {
-
-    .section-games .btn-wrapper,
-    .section-games .text {
-        text-align: center;
     }
 }
 
@@ -372,7 +251,6 @@ header.masthead .device-container .screen img {
 section.contact {
     padding: 100px;
     text-align: center;
-    max-width: 980px;
     margin: auto;
 }
 
@@ -420,7 +298,6 @@ footer {
     text-align: center;
     color: rgba(255, 255, 255, 0.3);
     background-color: #222222;
-    max-width: 980px;
     margin: auto;
 }
 
