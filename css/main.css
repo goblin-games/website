@@ -118,6 +118,10 @@ section h2 {
     margin: auto;
 }
 
+.game-info{
+    margin-top:10px;
+}
+
 .game-description {
     color: white;
 }
