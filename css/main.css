@@ -118,6 +118,11 @@ section h2 {
     margin: auto;
 }
 
+.undertitle{
+    margin-top: 40px;
+    text-align: center
+}
+
 .game-info{
     margin-top:10px;
 }
@@ -252,6 +257,26 @@ footer {
     margin: auto;
 }
 
+.footer{
+    padding: 25px 0;
+    text-align: center;
+    color: black;
+    margin: auto; 
+}
+
+.footer p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.footer ul {
+    margin-bottom: 0;
+}
+
+.footer ul li a {
+    font-size: 12px;
+}
+
 footer p {
     font-size: 12px;
     margin: 0;
@@ -276,6 +301,11 @@ footer ul li a.active {
 .bg-primary {
     background: #fdcc52;
     background: radial-gradient(#fdcc52, #fdc539);
+}
+
+.deadworm img{
+    width: 100%;
+    max-width: 980px;
 }
 
 .text-primary {
