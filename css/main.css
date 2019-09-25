@@ -64,21 +64,21 @@ section h2 {
 
 .game-knifethrow {
     margin-top: 53px;
-    padding: 50px;
+    padding: 50px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, .5);
     background: rgb(58, 101, 140);
     background: radial-gradient(circle, rgba(58, 101, 140, 1) 0%, rgba(34, 73, 80, 1) 100%);
 }
 
 .game-redrun {
-    padding: 50px;
+    padding: 50px 0px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, .5);
     background: rgb(223, 68, 68);
     background: radial-gradient(circle, rgba(223, 68, 68, 1) 0%, rgba(172, 58, 58, 1) 100%);
 }
 
 .game-cubie {
-    padding: 50px;
+    padding: 50px 0;
     box-shadow: 0 4px 16px rgba(0, 0, 0, .5);
     background: rgb(58, 101, 140);
     background: url("../img/bg-pattern.png"), rgb(58, 101, 140);
