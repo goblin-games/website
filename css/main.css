@@ -264,7 +264,7 @@ footer ul li a.active {
 
 .deadworm img{
     width: 100%;
-    max-width: 512;
+    max-width: 512px;
     display:block;
     margin: 50px auto;
 }
