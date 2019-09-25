@@ -63,20 +63,23 @@ section h2 {
 }
 
 .game-knifethrow {
-    margin-top: 62px;
+    margin-top: 53px;
+    padding: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .5);
     background: rgb(58, 101, 140);
     background: radial-gradient(circle, rgba(58, 101, 140, 1) 0%, rgba(34, 73, 80, 1) 100%);
 }
 
 .game-redrun {
-    margin-top: 5px;
+    padding: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .5);
     background: rgb(223, 68, 68);
     background: radial-gradient(circle, rgba(223, 68, 68, 1) 0%, rgba(172, 58, 58, 1) 100%);
 }
 
 .game-cubie {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    padding: 50px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .5);
     background: rgb(58, 101, 140);
     background: url("../img/bg-pattern.png"), rgb(58, 101, 140);
     background: url("../img/bg-pattern.png"), radial-gradient(circle, rgba(58, 101, 140, 1) 0%, rgba(34, 73, 80, 1) 100%);
@@ -137,6 +140,10 @@ section h2 {
     max-width: 512px;
 }
 
+#mainNav{
+    box-shadow: 0 2px 3px 0 rgba(27, 36, 50, 0.15);
+}
+
 #mainNav .navbar-toggler {
     font-size: 12px;
     padding: 8px 10px;
@@ -150,14 +157,6 @@ section h2 {
     text-transform: uppercase;
 }
 
-#mainNav .navbar-nav > li > a.active {
-    color: #fdcc52 !important;
-    background-color: transparent;
-}
-
-#mainNav .navbar-nav > li > a.active:hover {
-    background-color: transparent;
-}
 
 #mainNav .navbar-nav > li > a,
 #mainNav .navbar-nav > li > a:focus {
@@ -169,49 +168,9 @@ section h2 {
     color: #fdcc52;
 }
 
-@media (min-width: 992px) {
-    #mainNav {
-        border-color: transparent;
-        background-color: transparent;
-    }
-
-    #mainNav .navbar-brand {
-        color: fade(white, 70%);
-    }
-
-    #mainNav .navbar-brand:hover,
-    #mainNav .navbar-brand:focus {
-        color: white;
-    }
-
-    #mainNav .navbar-nav > li > a,
-    #mainNav .navbar-nav > li > a:focus {
-        color: #222222;
-    }
-
-    #mainNav.navbar-shrink .navbar-brand {
-        color: #222222;
-    }
-
-    #mainNav.navbar-shrink .navbar-brand:hover,
-    #mainNav.navbar-shrink .navbar-brand:focus {
-        color: #fdcc52;
-    }
-
-    #mainNav.navbar-shrink .navbar-nav > li > a,
-    #mainNav.navbar-shrink .navbar-nav > li > a:focus {
-        color: #222222;
-    }
-
-    #mainNav.navbar-shrink .navbar-nav > li > a:hover,
-    #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-        color: #fdcc52;
-    }
-}
-
 section.contact {
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 120px;
     text-align: center;
     margin: auto;
 }
@@ -305,7 +264,9 @@ footer ul li a.active {
 
 .deadworm img{
     width: 100%;
-    max-width: 980px;
+    max-width: 512;
+    display:block;
+    margin: 50px auto;
 }
 
 .text-primary {
@@ -327,14 +288,64 @@ footer ul li a.active {
     margin: 0 auto;
 }
 
-.btn-action {
-    width: 70%;
+.btn-lg
+{
+	border-radius: 40px;
+	padding: 5px 22px 5px;
+}
+.btn-primary
+{
     background-color: #f0534a;
     border-top: 0 none;
-    border-bottom: 4px solid #ab3b33;
+    border-bottom: 2px solid #ab3b33;
     border-left: 0;
     border-right: 0;
     color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, .5);
-    font-family: CeraProBold, sans-serif;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, .5);
+	font-family: CeraProBold,sans-serif;
+    max-width: 250px;
+}
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover
+{
+    background-color: #ff544a!important;
+    color: #fff;
+    border-width: 0;
+    border-top: 0 none;
+    border-bottom: 2px solid #f0534a!important;
+}
+.btn-action.hover,
+.btn-action:active,
+.btn-action:focus,
+.btn-action:hover {
+    background-color: #2ce027!important;
+    color: #fff!important;
+    border-width: 0;
+    border-top: 0 none;
+    border-bottom: 2px solid #1b8e17!important;
+}
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
 }
