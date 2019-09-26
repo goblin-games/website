@@ -16,6 +16,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/games.css" rel="stylesheet">
     <link rel="stylesheet" href="libs/simple-line-icons/css/simple-line-icons.css">
 </head>
 
@@ -82,7 +83,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <div class="game-logo"><img src="img/redrun-logo.png" alt="">
-                            <p class="btn"><a href="../redrun/index.html" class="btn btn-lg btn-primary"><span>Learn more </span></a></p>
+                            <button class="btn"><a class="btn btn-lg btn-primary" data-toggle="collapse" href="#redrun-details" role="button" aria-expanded="false" aria-controls="redrun-details"><span>Learn more </span></a></button>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -102,6 +103,16 @@
                                 </a>
                             </li>
                         </ul>
+                    </div>
+                    <div class="collapse" id="redrun-details">
+                        <div class="screenshots">
+                            <ul class="hs full">
+                                <li class="item"><img src="../img/screenshots/1.png"></li>
+                                <li class="item"><img src="../img/screenshots/2.png"></li>
+                                <li class="item"><img src="../img/screenshots/5.png"></li>
+                                <li class="item"><img src="../img/screenshots/6-eng.png"></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -184,4 +195,6 @@
     <!-- Custom scripts for this template -->
     <script src="js/main.js"></script>
 
-</body></html>
+</body>
+
+</html>
