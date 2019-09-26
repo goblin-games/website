@@ -110,14 +110,14 @@ section h2 {
 }
 
 .game-badges li{
-    display: block;
+    display: inline;
 }
 
 .game-badge img {
     width: 100%;
-    padding-top: 10px;
-    max-width: 256px;
-    display: block;
+    padding-top: 25px;
+    max-width: 200px;
+    display: inline;
     margin: auto;
 }
 
@@ -136,7 +136,7 @@ section h2 {
 
 .game-logo img {
     width: 100%;
-    height: 50& display: block;
+    display: block;
     max-width: 512px;
 }
 
