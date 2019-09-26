@@ -92,7 +92,7 @@ section h2 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, .5);
 }
 
-.cube-icon img{
+.cube-icon img {
     width: 25%;
     margin: 10px;
     margin-top: 0;
@@ -105,29 +105,28 @@ section h2 {
     color: white;
 }
 
-.game-info{
+.game-info {
     overflow: auto;
 }
 
-.game-badges li{
+.game-badges li {
     display: inline;
+    margin: auto;
 }
 
 .game-badge img {
     width: 100%;
     padding-top: 25px;
-    max-width: 200px;
-    display: inline;
-    margin: auto;
+    max-width: 180px;
 }
 
-.undertitle{
+.undertitle {
     margin-top: 40px;
     text-align: center
 }
 
-.game-info{
-    margin-top:10px;
+.game-info {
+    margin-top: 10px;
 }
 
 .game-description {
@@ -140,7 +139,7 @@ section h2 {
     max-width: 512px;
 }
 
-#mainNav{
+#mainNav {
     box-shadow: 0 2px 3px 0 rgba(27, 36, 50, 0.15);
 }
 
@@ -180,15 +179,17 @@ section.contact h2 {
     margin-bottom: 25px;
 }
 
-.contact-form form .row{
+.contact-form form .row {
     margin-bottom: -7%;
 }
-.contact-form h3{
+
+.contact-form h3 {
     margin-bottom: 8%;
     margin-top: -10%;
     text-align: center;
     color: #0062cc;
 }
+
 .contact-form .btnContact {
     width: 50%;
     border: none;
@@ -200,8 +201,8 @@ section.contact h2 {
     cursor: pointer;
 }
 
-.contact-form .form-control{
-    border-radius:1rem;
+.contact-form .form-control {
+    border-radius: 1rem;
 }
 
 section.contact ul.list-social {
@@ -216,11 +217,11 @@ footer {
     margin: auto;
 }
 
-.footer{
+.footer {
     padding: 25px 0;
     text-align: center;
     color: black;
-    margin: auto; 
+    margin: auto;
 }
 
 .footer p {
@@ -262,10 +263,10 @@ footer ul li a.active {
     background: radial-gradient(#fdcc52, #fdc539);
 }
 
-.deadworm img{
+.deadworm img {
     width: 100%;
     max-width: 512px;
-    display:block;
+    display: block;
     margin: 50px auto;
 }
 
@@ -288,13 +289,12 @@ footer ul li a.active {
     margin: 0 auto;
 }
 
-.btn-lg
-{
-	border-radius: 40px;
-	padding: 5px 22px 5px;
+.btn-lg {
+    border-radius: 40px;
+    padding: 5px 22px 5px;
 }
-.btn-primary
-{
+
+.btn-primary {
     background-color: #f0534a;
     border-top: 0 none;
     border-bottom: 2px solid #ab3b33;
@@ -302,50 +302,52 @@ footer ul li a.active {
     border-right: 0;
     color: white;
     box-shadow: 0 3px 7px rgba(0, 0, 0, .5);
-	font-family: CeraProBold,sans-serif;
+    font-family: CeraProBold, sans-serif;
     max-width: 250px;
 }
+
 .btn-primary:active,
 .btn-primary:focus,
-.btn-primary:hover
-{
-    background-color: #ff544a!important;
+.btn-primary:hover {
+    background-color: #ff544a !important;
     color: #fff;
     border-width: 0;
     border-top: 0 none;
-    border-bottom: 2px solid #f0534a!important;
+    border-bottom: 2px solid #f0534a !important;
 }
+
 .btn-action.hover,
 .btn-action:active,
 .btn-action:focus,
 .btn-action:hover {
-    background-color: #2ce027!important;
-    color: #fff!important;
+    background-color: #2ce027 !important;
+    color: #fff !important;
     border-width: 0;
     border-top: 0 none;
-    border-bottom: 2px solid #1b8e17!important;
+    border-bottom: 2px solid #1b8e17 !important;
 }
+
 .btn span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
 }
 
 .btn span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
 }
 
 .btn:hover span {
-  padding-right: 25px;
+    padding-right: 25px;
 }
 
 .btn:hover span:after {
-  opacity: 1;
-  right: 0;
+    opacity: 1;
+    right: 0;
 }
