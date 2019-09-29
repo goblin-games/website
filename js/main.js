@@ -16,74 +16,23 @@
     });
 })(jQuery); // End of use strict
 
-
-const slider = tns({
-    container: '.my-slider',
-    loop: true,
-    items: 1,
-    slideBy: 'page',
-    nav: false,
-    autoplay: true,
-    speed: 400,
-    autoplayButtonOutput: false,
-    mouseDrag: true,
-    lazyload: true,
-    controlsContainer: "#customize-controls",
-    responsive: {
-        640: {
-            items: 2
-        },
-
-
-        768: {
-            items: 3
-        }
+var slider2 = tns({
+  controls: false,
+  autoplay: true,
+  container: ".slider2",
+  mouseDrag: true,
+  responsive: {
+    "350": {
+      items: 2
+    },
+    "500": {
+      items: 3
+    },
+    "800": {
+      items: 4
     }
+  },
+  swipeAngle: false,
+  speed: 400
 });
 
-const slider2 = tns({
-    container: '.my-slider2',
-    loop: true,
-    items: 1,
-    slideBy: 'page',
-    nav: false,
-    autoplay: true,
-    speed: 400,
-    autoplayButtonOutput: false,
-    mouseDrag: true,
-    lazyload: true,
-    controlsContainer: "#customize-controls",
-    responsive: {
-        640: {
-            items: 2
-        },
-
-
-        768: {
-            items: 3
-        }
-    }
-});
-const slider3 = tns({
-    container: '.my-slider3',
-    loop: true,
-    items: 1,
-    slideBy: 'page',
-    nav: false,
-    autoplay: true,
-    speed: 400,
-    autoplayButtonOutput: false,
-    mouseDrag: true,
-    lazyload: true,
-    controlsContainer: "#customize-controls",
-    responsive: {
-        640: {
-            items: 2
-        },
-
-
-        768: {
-            items: 3
-        }
-    }
-});
