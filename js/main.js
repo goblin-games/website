@@ -1,16 +1,13 @@
 var slider1 = tns({
   controls: false,
-  autoplay: true,
+  fixedWidth: 200,
   container: ".slider1",
   mouseDrag: true,
   responsive: {
-    "350": {
-      items: 2
-    },
     "500": {
       items: 3
     },
-    "800": {
+    "900": {
       items: 4
     }
   },
