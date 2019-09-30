@@ -175,7 +175,7 @@ ul{
 
 section.contact {
     padding-top: 80px;
-    padding-bottom: 120px;
+    padding-bottom: 80px;
     text-align: center;
     margin: auto;
 }
@@ -185,8 +185,8 @@ section.contact h2 {
     margin-bottom: 25px;
 }
 
-.contact-form form .row {
-    margin-bottom: -7%;
+.contact-form{
+    max-width: 500px;
 }
 
 .contact-form h3 {
@@ -200,7 +200,6 @@ section.contact h2 {
     width: 50%;
     border: none;
     border-radius: 1rem;
-    padding: 1.5%;
     background: #dc3545;
     font-weight: 600;
     color: #fff;
@@ -209,10 +208,6 @@ section.contact h2 {
 
 .contact-form .form-control {
     border-radius: 1rem;
-}
-
-section.contact ul.list-social {
-    margin-bottom: 0;
 }
 
 footer {
