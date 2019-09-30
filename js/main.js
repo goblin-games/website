@@ -1,3 +1,23 @@
+var slider1 = tns({
+  controls: false,
+  autoplay: true,
+  container: ".slider1",
+  mouseDrag: true,
+  responsive: {
+    "350": {
+      items: 2
+    },
+    "500": {
+      items: 3
+    },
+    "800": {
+      items: 4
+    }
+  },
+  swipeAngle: false,
+  speed: 400
+});
+
 (function ($) {
     "use strict"; // Start of use strict
 
@@ -16,23 +36,5 @@
     });
 })(jQuery); // End of use strict
 
-var slider2 = tns({
-  controls: false,
-  autoplay: true,
-  container: ".slider2",
-  mouseDrag: true,
-  responsive: {
-    "350": {
-      items: 2
-    },
-    "500": {
-      items: 3
-    },
-    "800": {
-      items: 4
-    }
-  },
-  swipeAngle: false,
-  speed: 400
-});
+
 
