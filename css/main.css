@@ -111,13 +111,18 @@ section h2 {
 
 .game-badges li {
     display: inline;
-    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
+ul{
+    display: table;
+    margin: 0 auto;
+    padding: 5px;
+}
 .game-badge img {
-    width: 100%;
-    padding-top: 25px;
-    max-width: 140px;
+    width: 140px;
+    padding-top:5px;
 }
 
 .undertitle {
@@ -136,7 +141,8 @@ section h2 {
 .game-logo img {
     width: 100%;
     display: block;
-    max-width: 512px;
+    margin: auto;
+    max-width: 400px;
 }
 
 #mainNav {
@@ -352,7 +358,7 @@ footer ul li a.active {
   height: 10px;
   padding: 0;
   margin: 0 2px;
-  border-radius: 20%;
+  border-radius: 2px;
   background: rgba(5,5,5,0.4);
   border: 0;
 }
