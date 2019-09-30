@@ -289,12 +289,8 @@ footer ul li a.active {
     margin: 0 auto;
 }
 
-.btn-lg {
-    border-radius: 40px;
-    padding: 5px 22px 5px;
-}
-
 .btn-primary {
+    padding: 5px 22px 5px;
     background-color: #f0534a;
     border-top: 0 none;
     border-bottom: 2px solid #ab3b33;
@@ -314,17 +310,6 @@ footer ul li a.active {
     border-width: 0;
     border-top: 0 none;
     border-bottom: 2px solid #f0534a !important;
-}
-
-.btn-action.hover,
-.btn-action:active,
-.btn-action:focus,
-.btn-action:hover {
-    background-color: #2ce027 !important;
-    color: #fff !important;
-    border-width: 0;
-    border-top: 0 none;
-    border-bottom: 2px solid #1b8e17 !important;
 }
 
 .btn span {
@@ -353,9 +338,22 @@ footer ul li a.active {
 }
 
 /* Slider */
-.screenshot{
-  margin:10px;
+.screenshot img {
+    width: 100%;
+    padding: 5px;
 }
-.screenshot img{
-  width: 100%;
+
+.tns-nav {
+  text-align: center;
+  margin: 10px 0;
 }
+.tns-nav > [aria-controls] {
+  width: 18px;
+  height: 10px;
+  padding: 0;
+  margin: 0 2px;
+  border-radius: 20%;
+  background: rgba(5,5,5,0.4);
+  border: 0;
+}
+.tns-nav > .tns-nav-active { background: rgba(200,200,200,0.6); }
