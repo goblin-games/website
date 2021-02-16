@@ -1,4 +1,4 @@
-# [Ankiv - official site](https://ankivapps.github.io/website/)
+# [ankiv - official site](https://ankivapps.github.io/website/)
 
 Theme is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
