@@ -70,6 +70,13 @@ section h2 {
     background: radial-gradient(circle, rgba(58, 101, 140, 1) 0%, rgba(34, 73, 80, 1) 100%);
 }
 
+.game-monster {
+    padding: 50px 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .5);
+    background: rgb(223, 68, 68);
+    background: radial-gradient(circle, rgb(154, 206, 0) 0%, rgb(102, 172, 58) 100%);
+}
+
 .game-redrun {
     padding: 50px 0px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, .5);
@@ -101,7 +108,7 @@ section h2 {
     float: left;
 }
 
-.cube-description {
+.game-description {
     color: white;
 }
 

@@ -55,6 +55,25 @@ var slider3 = tns({
   speed: 400
 });
 
+var slider4 = tns({
+  controls: false,
+  container: ".slider4",
+  mouseDrag: true,
+  responsive: {
+    "350": {
+      items: 2
+    },
+    "500": {
+      items: 3
+    },
+    "800": {
+      items: 4
+    }
+  },
+  swipeAngle: false,
+  speed: 400
+});
+
 
 (function ($) {
     "use strict"; // Start of use strict
