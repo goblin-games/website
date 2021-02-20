@@ -78,8 +78,7 @@
         }
 
         #border {
-            background-color: #99C;
-            border: 1px solid #B90000;
+            background-color: #962d2d;
             -webkit-border-radius: 7px;
             -moz-border-radius: 7px;
             border-radius: 7px;
@@ -100,7 +99,7 @@
         }
     </style>
 
-    <title>Clickteam Fusion Developer 2.5 HTML5 Runtime</title>
+    <title>Red Run</title>
 
     <script>
         // Detection of old browsers that do not support the canvas element
@@ -113,21 +112,6 @@
     <!-- EXTRASOURCES -->
     <!-- Loads the Javascript code...-->
     <script src="src/Runtime.js"></script>
-
-    <script>
-        // Detects if the html file is ran locally.
-        // You can remove this code for the final version
-        if (window.location.protocol == "file:") {
-            document.write('<div id="bloctxt">');
-            document.write('<h1>The application cannot be run...</h1>');
-            document.write('<p>HTML browsers do not allow you to launch data files directly from the file system.<br>');
-            document.write('A drag & drop of the html file on a web-browser window will not work, on any machine.<br>');
-            document.write('Please use the Build & Run option (it opens a local web server) to run your application,<br>')
-            document.write('or upload your application folder to a remote web-server, and start it from there...</p>');
-            document.write('</div>');
-            throw new error("Cannot run application");
-        }
-    </script>
 </head>
 
 <!-- This is where we create the Canvas element that will contain the application...-->
