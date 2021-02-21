@@ -1,77 +1,85 @@
 var slider1 = tns({
-  controls: false,
-  container: ".slider1",
-  mouseDrag: true,
-  responsive: {
-    "350": {
-      items: 2
+    controls: false,
+    container: ".slider1",
+    mouseDrag: true,
+    autoplay: true,
+    autoplayButtonOutput: false,
+    responsive: {
+        "350": {
+            items: 2
+        },
+        "500": {
+            items: 3
+        },
+        "800": {
+            items: 4
+        }
     },
-    "500": {
-      items: 3
-    },
-    "800": {
-      items: 4
-    }
-  },
-  swipeAngle: false,
-  speed: 400
+    swipeAngle: false,
+    speed: 400
 });
 
 var slider2 = tns({
-  controls: false,
-  container: ".slider2",
-  mouseDrag: true,
-  responsive: {
-    "350": {
-      items: 1
+    controls: false,
+    container: ".slider2",
+    mouseDrag: true,
+    autoplay: true,
+    autoplayButtonOutput: false,
+    responsive: {
+        "350": {
+            items: 1
+        },
+        "500": {
+            items: 1
+        },
+        "800": {
+            items: 2
+        }
     },
-    "500": {
-      items: 2
-    },
-    "800": {
-      items: 3
-    }
-  },
-  swipeAngle: false,
-  speed: 400
+    swipeAngle: false,
+    speed: 400
 });
 
 var slider3 = tns({
-  controls: false,
-  container: ".slider3",
-  mouseDrag: true,
-  responsive: {
-    "350": {
-      items: 2
+    controls: false,
+    container: ".slider3",
+    mouseDrag: true,
+    autoplay: true,
+    autoplayButtonOutput: false,
+    responsive: {
+        "450": {
+            items: 2
+        },
+        "500": {
+            items: 3
+        },
+        "800": {
+            items: 4
+        }
     },
-    "500": {
-      items: 3
-    },
-    "800": {
-      items: 4
-    }
-  },
-  swipeAngle: false,
-  speed: 400
+    swipeAngle: false,
+    speed: 400
 });
 
 var slider4 = tns({
-  controls: false,
-  container: ".slider4",
-  mouseDrag: true,
-  responsive: {
-    "350": {
-      items: 2
+    controls: false,
+    container: ".slider4",
+    mouseDrag: true,
+    autoplay: true,
+    autoplayButtonOutput: false,
+    responsive: {
+        "350": {
+            items: 1
+        },
+        "500": {
+            items: 1
+        },
+        "800": {
+            items: 2
+        }
     },
-    "500": {
-      items: 3
-    },
-    "800": {
-      items: 4
-    }
-  },
-  swipeAngle: false,
-  speed: 400
+    swipeAngle: false,
+    speed: 400
 });
 
 
@@ -92,6 +100,3 @@ var slider4 = tns({
         }
     });
 })(jQuery); // End of use strict
-
-
-

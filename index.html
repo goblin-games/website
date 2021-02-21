@@ -12,10 +12,10 @@
     <title>ankiv</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+    <link rel="stylesheet" href="libs/tiny-slider/tiny-slider.css">
 
     <!-- Custom styles -->
     <link href="css/main.css" rel="stylesheet">
@@ -38,13 +38,13 @@
                         <a class="nav-link js-scroll-trigger" href="#knifethrow">Knife Throwing Simulator</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#monster">Blast the Monster</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#redrun">Red Run</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#cubie">Cubie</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -72,7 +72,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="game-info">
-                            <div class="cube-icon"><img src="img/kts-icon.png" alt=""></div>
+                            <div class="game-icon"><img src="img/kts-icon.png" alt=""></div>
                             <p class="game-description">First person simulator of throwing knives with realistic physics and destruction</p>
                         </div>
                         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#knifethrow-details" aria-expanded="false" aria-controls="knifethrow-details">
@@ -160,7 +160,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="game-info">
-                            <div class="cube-icon"><img src="img/monster-icon.png" alt=""></div>
+                            <div class="game-icon"><img src="img/monster-icon.png" alt=""></div>
                             <p class="game-description">Throw bombs to explode monster physics puzzle</p>
                         </div>
                         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#monster-details" aria-expanded="false" aria-controls="monster-details">
@@ -230,7 +230,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="game-info">
-                            <div class="cube-icon"><img src="img/redrun-icon.png" alt=""></div>
+                            <div class="game-icon"><img src="img/redrun-icon.png" alt=""></div>
                             <p class="game-description">Run trough obstacles and colect coins to buy hats!</p>
                         </div>
                         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#redrun-details" aria-expanded="false" aria-controls="redrun-details">
@@ -313,7 +313,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="game-info">
-                            <div class="cube-icon"><img src="img/cubie-icon.png" alt=""></div>
+                            <div class="game-icon"><img src="img/cubie-icon.png" alt=""></div>
                             <p class="game-description">Count and win! Accurate additions and multiplications are the way to victory!</p>
                         </div>
                         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#cubie-details" aria-expanded="false" aria-controls="cubie-details">
@@ -376,25 +376,6 @@
         </div>
     </section>
 
-    <section class="contact bg-primary" id="contact">
-        <div class="container contact-form">
-            <form method="post" action="https://formspree.io/shtran@inbox.ru">
-                <h2>Contact</h2>
-                <div class="contact-form">
-                    <div class="form-group">
-                        <input type="email" name="_replyto" class="form-control" placeholder="Email" value="" />
-                    </div>
-                    <div class="form-group">
-                        <textarea type="text" name="message" class="form-control" placeholder="Message" style="width: 100%; height: 100px;"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <input type="submit" name="btnSubmit" class="btn-lg btn-primary" />
-                    </div>
-                </div>
-            </form>
-        </div>
-    </section>
-
     <footer>
         <div class="container">
             <p>Copyright &copy; ankiv 2020</p>
@@ -406,12 +387,12 @@
         </div>
     </footer>
     <!-- Bootstrap core JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="libs/jquery-easing/jquery.easing.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="libs/tiny-slider/tiny-slider.min.js"></script>
 
     <!-- Custom scripts -->
     <script src="js/main.js"></script>
