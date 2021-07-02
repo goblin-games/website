@@ -1220,6 +1220,9 @@ window.__require = function e(t, n, r) {
         this.overviewTargets[1].target = this.monster.node;
       };
       Game.prototype.restart = function() {
+        this.overviewTargets.forEach(function(t) {
+          t.reset();
+        });
         this.unscheduleAllCallbacks();
         this.levelEditor.reloadLevel();
         this.monsterCamera.node.active = false;
@@ -1229,9 +1232,6 @@ window.__require = function e(t, n, r) {
         this.starsCollected = 0;
         this.camera.overview = true;
         this.camera.target = Game_1.instance.center;
-        this.overviewTargets.forEach(function(t) {
-          t.followTarget = false;
-        });
         this.overviewTargets[1].target = this.grenade.node;
         this.gameover = false;
         this.gameMenu.showCloseLevel(false);
@@ -1989,7 +1989,7 @@ window.__require = function e(t, n, r) {
           break;
 
          case 7:
-          code = "IeBnLjGocGcGldDmGldAjDmdAjxncGcLccLbLhcKhRh";
+          code = "EkFfuizqcHaHncAsHndDiHidvasgdsgxecxeCedBfBodAfAmdzfzkdyfyj";
           break;
 
          case 8:
@@ -2157,7 +2157,11 @@ window.__require = function e(t, n, r) {
           break;
 
          case 49:
-          code = "EkFfuizqcHaHncAsHndDiHidvasgdsgxecxeCedBfBodAfAmdzfzkdyfyj";
+          code = "IeBnLjGocGcGldDmGldAjDmdAjxncGcLccLbLhcKhRh";
+          break;
+
+         case 50:
+          code = "HgRdAeRndyayqdOqTqdTaTqdOpOqjCpCqjGpGqjKqKpfyqCqfCqGqfGqKqfKqOqdHaHeeHedFeJedJbJd";
         }
         return this.fromCode(code);
       };
